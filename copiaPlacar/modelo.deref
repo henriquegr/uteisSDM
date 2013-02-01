@@ -1,0 +1,6 @@
+deref
+{
+input = parent
+output = DRF_sequence_parent
+rule = "SELECT sequence FROM User_Query WHERE id=? and obj_persid='role:400009'"
+}
